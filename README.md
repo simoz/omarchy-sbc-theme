@@ -96,8 +96,9 @@ Green and yellow are added for terminal use, since the banner has none.
 ## Wallpapers
 
 Four 3840×2160 WebP backgrounds in two styles, each with and without the club
-lettering (see [credits](CREDITS.md) for how they were made). Omarchy shows
-them in file-name order, so the first one is the default:
+lettering (see [credits](CREDITS.md) for how they were made). The lettering
+stays whole when Omarchy crops the wallpaper to fill 16:10, 3:2 or 4:3 screens.
+Omarchy shows them in file-name order, so the first one is the default:
 
 <table>
   <tr>

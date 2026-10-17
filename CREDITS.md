@@ -25,11 +25,12 @@ Shared record for all four files:
   redrawn and corrected by the generator
 - Process: generated at 1672×941, then resampled with macOS `sips` to
   3840×2160, then re-encoded from PNG to WebP (quality 95) with ImageMagick
-  to keep the download small. This is not native 4K generation. In the two
-  "con-scritta" files the soft lettering edges left by the upscale were then
-  re-sharpened (about 4–6 px around each letter edge, flattening the faint
-  bevel the generation prompts asked to remove); the rest of each image is
-  unchanged
+  to keep the download small. This is not native 4K generation. For the two
+  "con-scritta" files the title was lifted out of the generated image with
+  re-sharpened edges (the upscale had left them soft, and the faint bevel the
+  generation prompts asked to remove is flattened) and placed on the matching
+  "senza-scritta" image, 350 px further left than generated so it stays whole
+  when Omarchy crops the wallpaper for 16:10, 3:2 and 4:3 screens
 - Style: the "omarchy" pair is an artistic interpretation of Omarchy Quattro's
   Tokyo Night landscape wallpapers (Winding Road, Sunset Lake); it is not an
   official Omarchy asset and contains none of their artwork. The "retro" pair
