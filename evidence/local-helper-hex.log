@@ -1,0 +1,8 @@
+# build-omarchy-themes @ 4a8a4fe583d7368fc88617843894f2c038d9a3b3, theme-tool check on a copy without the two hyprland_*_border gradient keys
+$ grep -v -E '^hyprland_(active|inactive)_border' colors.toml > copy/colors.toml; omarchy-theme-tool check copy
+CONTRAST foreground/background: 12.68:1 (design target 4.5:1)
+CONTRAST foreground/selection: 8.60:1 (design target 4.5:1)
+CONTRAST accent/background: 8.27:1 (design target 3:1)
+NOT CHECKED: image decoding/dimensions, media rights, reserved/taken names, live rendering, upstream registry acceptance.
+PASS: local authoring subset only
+exit=0

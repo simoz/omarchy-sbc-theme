@@ -1,0 +1,36 @@
+# Sunday Builders Club: indigo night sky, sunrise orange, violet and coral rays,
+# periwinkle mountains and the sky-blue "club" lettering of the source banner.
+mode = "dark"
+
+accent = "#fc9464"
+selection = "#2f305e"
+muted = "#7473a6"
+
+background = "#131426"
+dark_background = "#0f0f1f"
+darker_background = "#0b0b16"
+lighter_background = "#1e1d3a"
+
+foreground = "#d6d4fa"
+dark_foreground = "#9c99c9"
+light_foreground = "#e4e2fd"
+bright_foreground = "#f3f2ff"
+
+red = "#f4707f"
+yellow = "#f8c471"
+orange = "#fc9464"
+green = "#8edba8"
+cyan = "#6cc4fc"
+blue = "#7f8af2"
+magenta = "#b884e0"
+brown = "#b0697a"
+
+bright_red = "#ff98a3"
+bright_yellow = "#ffd99a"
+bright_green = "#b2edc6"
+bright_cyan = "#9ad8ff"
+bright_blue = "#a6adff"
+bright_magenta = "#d3a9f4"
+
+hyprland_active_border = "rgba(fc9464ee) rgba(b884e0ee) 45deg"
+hyprland_inactive_border = "rgba(2f305eaa)"

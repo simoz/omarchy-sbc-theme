@@ -1,0 +1,17 @@
+# build-omarchy-themes @ 4a8a4fe583d7368fc88617843894f2c038d9a3b3, check_policy.py (Python 3.13.16, Pillow 12.3.0)
+$ check_policy.py omarchy-sbc-theme --contrast foreground/background=4.5 --contrast bright_foreground/selection=4.5 --contrast accent/background=3 --contrast muted/background=3 --deny-ignored-files --check-images
+CONTRAST foreground/background: 12.6820:1; required 4.5:1
+CONTRAST bright_foreground/selection: 11.1159:1; required 4.5:1
+CONTRAST accent/background: 8.2710:1; required 3.0:1
+CONTRAST muted/background: 4.1061:1; required 3.0:1
+DECODED backgrounds/sunday-omarchy-con-scritta-4k.png
+DECODED backgrounds/sunday-omarchy-senza-scritta-4k.png
+DECODED backgrounds/sunday-retro-con-scritta-4k.png
+DECODED backgrounds/sunday-retro-senza-scritta-4k.png
+NOT CHECKED: video decoding, image rights, preview composition or live rendering
+PASS: selected project gates only; registry acceptance and desktop behaviour NOT CHECKED
+exit=0
+backgrounds/sunday-omarchy-con-scritta-4k.png: PNG 3840x2160 RGB 8683521 bytes exif-tags=['ColorSpace', 'ExifImageHeight', 'ExifImageWidth', 'ExifOffset']
+backgrounds/sunday-omarchy-senza-scritta-4k.png: PNG 3840x2160 RGB 8892012 bytes exif-tags=['ColorSpace', 'ExifImageHeight', 'ExifImageWidth', 'ExifOffset']
+backgrounds/sunday-retro-con-scritta-4k.png: PNG 3840x2160 RGB 9840269 bytes exif-tags=['ColorSpace', 'ExifImageHeight', 'ExifImageWidth', 'ExifOffset']
+backgrounds/sunday-retro-senza-scritta-4k.png: PNG 3840x2160 RGB 10457671 bytes exif-tags=['ColorSpace', 'ExifImageHeight', 'ExifImageWidth', 'ExifOffset']
