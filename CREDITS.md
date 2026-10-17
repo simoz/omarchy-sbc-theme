@@ -54,7 +54,7 @@ same redistribution permission applies to them.
 - .github/social-preview.jpg
 
 Image for GitHub's social preview, made from
-backgrounds/sunday-retro-senza-scritta-4k.webp with the theme name and palette
+backgrounds/sunday-omarchy-con-scritta-4k.webp with the theme name and palette
 added on top; not a desktop screenshot. Same redistribution permission as the
 wallpapers.
 
