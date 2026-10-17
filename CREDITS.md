@@ -35,6 +35,15 @@ Shared record for all four files:
   is @ncfrontiersman's
 - Redistribution permission: pending (see above)
 
+## Screenshots
+
+- preview.png
+- screenshots/desktop.png
+
+Screenshots of the theme applied on Omarchy 4.0 (in a virtual machine), taken
+by the repository owner with `grim`. They show the wallpapers above, so the
+same redistribution permission applies to them.
+
 ## Palette
 
 Colours sampled from the same banner (artwork by @ncfrontiersman); palette
