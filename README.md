@@ -12,9 +12,10 @@ Tested installed Omarchy version: none
 
 The category badge is a community label, not certification. The target is not a tested-version claim.
 
-**SBC** is a dark theme drawn from the Sunday Builders Club banner: an indigo
-night sky, a peach-orange sunrise with violet and coral rays, periwinkle
-mountains and the sky-blue "club" lettering.
+**SBC** is a dark theme drawn from the Sunday Builders Club banner by
+[@ncfrontiersman](https://x.com/ncfrontiersman): an indigo night sky, a
+peach-orange sunrise with violet and coral rays, periwinkle mountains and the
+sky-blue "club" lettering.
 
 ## Palette
 
@@ -69,13 +70,15 @@ only after switching away from it. These instructions still need live verificati
 ## Media and credits
 
 The four wallpapers were generated with an AI image generator from the Sunday
-Builders Club banner, resampled to 3840×2160 and encoded as WebP (quality 95);
-they are not native 4K renders. Permission to redistribute them is pending; see
-[credits](CREDITS.md).
+Builders Club banner, original artwork by
+[@ncfrontiersman](https://x.com/ncfrontiersman), resampled to 3840×2160 and
+encoded as WebP (quality 95); they are not native 4K renders. Permission to
+redistribute them is pending; see [credits](CREDITS.md).
 No desktop screenshot is bundled yet, so there is no `preview` image.
 
-Code licence: not chosen yet. A code licence would not establish artwork
-redistribution rights.
+Licence: [MIT](LICENSE), for the theme's palette and configuration files. It
+does not cover the wallpaper artwork, which is derived from @ncfrontiersman's
+banner.
 
 ## Application colours
 
