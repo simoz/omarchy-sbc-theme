@@ -25,7 +25,11 @@ Shared record for all four files:
   redrawn and corrected by the generator
 - Process: generated at 1672×941, then resampled with macOS `sips` to
   3840×2160, then re-encoded from PNG to WebP (quality 95) with ImageMagick
-  to keep the download small. This is not native 4K generation
+  to keep the download small. This is not native 4K generation. In the two
+  "con-scritta" files the soft lettering edges left by the upscale were then
+  re-sharpened (about 4–6 px around each letter edge, flattening the faint
+  bevel the generation prompts asked to remove); the rest of each image is
+  unchanged
 - Style: the "omarchy" pair is an artistic interpretation of Omarchy Quattro's
   Tokyo Night landscape wallpapers (Winding Road, Sunset Lake); it is not an
   official Omarchy asset and contains none of their artwork. The "retro" pair
@@ -43,6 +47,15 @@ Shared record for all four files:
 Screenshots of the theme applied on Omarchy 4.0 (in a virtual machine), taken
 by the repository owner with `grim`. They show the wallpapers above, so the
 same redistribution permission applies to them.
+
+## Social preview
+
+- .github/social-preview.jpg
+
+Image for GitHub's social preview, made from
+backgrounds/sunday-retro-senza-scritta-4k.webp with the theme name and palette
+added on top; not a desktop screenshot. Same redistribution permission as the
+wallpapers.
 
 ## Palette
 

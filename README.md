@@ -8,7 +8,7 @@
 
 Status: development preview
 Intended Omarchy target: Quattro (source revision f4357a3; confirm for this theme)
-Tested installed Omarchy version: 4.0.0.r7031.gcce8b1c-1 (local copy, in a VM)
+Tested installed Omarchy version: none
 
 The category badge is a community label, not certification. The target is not a tested-version claim.
 
@@ -17,17 +17,27 @@ The category badge is a community label, not certification. The target is not a 
 peach-orange sunrise with violet and coral rays, periwinkle mountains and the
 sky-blue "club" lettering.
 
-![SBC with Neovim, btop, a terminal and Files](preview.png)
+![SBC on Omarchy with Neovim, btop, a terminal and Files](preview.png)
+
+*SBC on Omarchy with Neovim, btop, a terminal and Files, 1664×937*
 
 ## Install
+
+Note your current theme first, so you can go back to it:
+
+```bash
+omarchy theme current
+```
+
+Then install SBC:
 
 ```bash
 omarchy theme install https://github.com/simoz/omarchy-sbc-theme
 ```
 
 This clones the theme into `~/.config/omarchy/themes/sbc` and applies it
-straight away. You can also paste the URL in the Omarchy menu under
-**Install › Style › Theme**.
+straight away. If that folder already exists, the installer deletes it first.
+You can also paste the URL in the Omarchy menu under **Install › Style › Theme**.
 
 Cycle through the four wallpapers with `omarchy theme bg next`.
 
@@ -39,12 +49,21 @@ omarchy theme update
 
 This pulls the latest version of every theme installed from a git repository.
 
-## Uninstall
+## Rollback
 
-Switch to another theme first, then remove SBC:
+Set the theme you noted before installing, for example:
 
 ```bash
 omarchy theme set "Tokyo Night"
+```
+
+Omarchy brings back the wallpaper you last used with that theme.
+
+## Uninstall
+
+Switch to another theme first (see Rollback), then remove SBC:
+
+```bash
 omarchy theme remove sbc
 ```
 
@@ -54,6 +73,8 @@ name to pick the theme from a list instead.
 ## Screenshots
 
 ![SBC desktop with the retro wallpaper and the About window](screenshots/desktop.png)
+
+*SBC desktop with the retro wallpaper and the About window, 1664×937*
 
 ## Palette
 
@@ -84,16 +105,16 @@ them in file-name order, so the first one is the default:
     <td><img src="backgrounds/sunday-omarchy-senza-scritta-4k.webp" width="400" alt="Omarchy-style sunset over the lake without lettering"></td>
   </tr>
   <tr>
-    <td><code>sunday-omarchy-con-scritta-4k.webp</code> (default)</td>
-    <td><code>sunday-omarchy-senza-scritta-4k.webp</code></td>
+    <td><code>backgrounds/sunday-omarchy-con-scritta-4k.webp</code> (default): Omarchy-style sunset over the lake with the Sunday Builders Club lettering, 3840×2160</td>
+    <td><code>backgrounds/sunday-omarchy-senza-scritta-4k.webp</code>: Omarchy-style sunset over the lake without lettering, 3840×2160</td>
   </tr>
   <tr>
     <td><img src="backgrounds/sunday-retro-con-scritta-4k.webp" width="400" alt="Retro sunburst over the lake with the Sunday Builders Club lettering"></td>
     <td><img src="backgrounds/sunday-retro-senza-scritta-4k.webp" width="400" alt="Retro sunburst over the lake without lettering"></td>
   </tr>
   <tr>
-    <td><code>sunday-retro-con-scritta-4k.webp</code></td>
-    <td><code>sunday-retro-senza-scritta-4k.webp</code></td>
+    <td><code>backgrounds/sunday-retro-con-scritta-4k.webp</code>: Retro sunburst over the lake with the Sunday Builders Club lettering, 3840×2160</td>
+    <td><code>backgrounds/sunday-retro-senza-scritta-4k.webp</code>: Retro sunburst over the lake without lettering, 3840×2160</td>
   </tr>
 </table>
 
