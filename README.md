@@ -19,7 +19,7 @@ sky-blue "club" lettering.
 
 ![SBC on Omarchy with Neovim, btop, a terminal and Files](preview.png)
 
-*SBC on Omarchy with Neovim, btop, a terminal and Files, 1664×937*
+*SBC on Omarchy with Neovim, btop, a terminal and Files, 1463×824*
 
 ## Install
 
@@ -72,9 +72,9 @@ name to pick the theme from a list instead.
 
 ## Screenshots
 
-![SBC desktop with the retro wallpaper and the About window](screenshots/desktop.png)
+![SBC desktop with the retro wallpaper and a fastfetch terminal](screenshots/desktop.png)
 
-*SBC desktop with the retro wallpaper and the About window, 1664×937*
+*SBC desktop with the retro wallpaper and a fastfetch terminal, 1463×824*
 
 ## Palette
 

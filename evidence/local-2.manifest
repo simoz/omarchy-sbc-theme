@@ -1,0 +1,14 @@
+# git-blob-sha1 implementation
+8e63c98b63593d59445acb8d7ec8670135d579af	.github/social-preview.jpg
+e43b0f988953ae3a84b00331d0ccf5f7d51cb3cf	.gitignore
+1e5417f5fc2427d3ab78973a3b5267106983f768	LICENSE
+938d6ffd20859d1691d410c61f45fe05eb8d5a33	backgrounds/sunday-omarchy-con-scritta-4k.webp
+dda81b0d88ddfd8177cbfba538cf94cc9c1fa2fe	backgrounds/sunday-omarchy-senza-scritta-4k.webp
+29c1ba0b11abb1aa9937fe06d61bc8ebc0cdd385	backgrounds/sunday-retro-con-scritta-4k.webp
+0413361ec1a5b18c82e08019bd3fcfd93e4698e7	backgrounds/sunday-retro-senza-scritta-4k.webp
+33c37f4ee6249f496659a800cc551742c7fad8a2	chromium.theme
+cb04680fb8f7c14dc5e18412269899e787d33e08	colors.toml
+3a73239ff5ade1ae4f1cf4ea2ba56406d339d030	icons.theme
+2327c25553bcbfaa1847b94057d56d19fa9b2a95	media.tsv
+cf9a53efd3c0325369cecce2c0518babc23748b5	preview.png
+b093cb56f7dbfc4203cc026abcad5a2bb48a2b7b	screenshots/desktop.png
