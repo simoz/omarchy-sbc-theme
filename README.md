@@ -1,5 +1,9 @@
 # omarchy-sbc-theme
 
+![GitHub social preview made from the retro wallpaper and the palette](.github/social-preview.jpg)
+
+*GitHub social preview made from the retro wallpaper and the palette, 1280×640; not a desktop screenshot*
+
 <p>
   <a href="https://github.com/tcballard/omarchy-badges"><img alt="Built for Omarchy: Theme" height="20" src="https://raw.githubusercontent.com/tcballard/omarchy-badges/75975e5b5bf75e7ede3764bcd2950046f7abfe2c/badges/v1/omarchy-theme.svg"></a>
   <img alt="Target: Omarchy Quattro" height="20" src="https://img.shields.io/badge/target-Omarchy_Quattro-2f305e?style=flat-square">
@@ -140,7 +144,8 @@ Builders Club banner, original artwork by
 encoded as WebP (quality 95); they are not native 4K renders. Permission to
 redistribute them is pending; see [credits](CREDITS.md).
 `preview.png` and `screenshots/desktop.png` are screenshots of the theme
-applied on Omarchy.
+applied on Omarchy. The banner at the top, `.github/social-preview.jpg`, is a
+mockup made from the retro wallpaper; not a desktop screenshot.
 
 Licence: [MIT](LICENSE), for the theme's palette and configuration files. It
 does not cover the wallpaper artwork, which is derived from @ncfrontiersman's
