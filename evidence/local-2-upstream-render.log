@@ -1,0 +1,10 @@
+# omacom/omarchy @ f4357a3b2667047aa3c295d89337fc0ff751b41f: bin/omarchy-theme-set-templates rendered in a disposable HOME (no desktop), upstream bin/ first on PATH, GNU Awk 5.4.1, API 4.1, PMA Avon 8-g1, (GNU MPFR 4.2.2, GNU MP 6.3.0)
+$ OMARCHY_PATH=omarchy PATH=omarchy/bin:$PATH HOME=$(mktemp -d) omarchy-theme-set-templates  (colors.toml, icons.theme, chromium.theme and backgrounds copied into next-theme)
+exit=0; stderr/stdout: 
+generated: alacritty.toml btop.theme claude.json fcitx5-theme.conf foot.ini ghostty.conf gum_env.lua helix.toml hermes.yaml hyprland.lua hyprland-preview-share-picker.css keyboard.rgb kitty.conf neovim.lua obsidian.css pi.json shell.toml t3code.json vscode-theme.json 
+unresolved {{ }} placeholders: 0
+hyprland.lua: local active_border_color = { colors = { "rgba(fc9464ee)", "rgba(b884e0ee)" }, angle = 45 } local inactive_border_color = "rgba(2f305eaa)" 
+shell.toml [hyprland]: active-border            = "rgba(fc9464ee) rgba(b884e0ee) 45deg" active-border-foreground = "rgba(fc9464ee) rgba(b884e0ee) 45deg" 
+shell.toml [bar]: background       = "#131426" text             = "#d6d4fa" active           = "#f4707f" 
+alacritty normal: black=#131426 red=#f4707f green=#8edba8 yellow=#f8c471 blue=#7f8af2 magenta=#b884e0 cyan=#6cc4fc white=#d6d4fa 
+chromium.theme kept: 30,29,58  icons.theme kept: Yaru-wartybrown

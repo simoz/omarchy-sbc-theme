@@ -1,0 +1,64 @@
+# 2026-10-17T18:28:44+02:00 live check on a QEMU virtual machine (Apple Silicon host), display Virtual-1
+$ omarchy-version
+4.0.0.r7031.gcce8b1c-1
+exit=0
+$ omarchy theme current
+Sbc
+exit=0
+background: ~/.local/state/omarchy/current/theme/backgrounds/sunday-retro-con-scritta-4k.webp
+
+## install
+$ omarchy theme install https://github.com/simoz/omarchy-sbc-theme
+exit=0
+$ git -C ~/.config/omarchy/themes/sbc rev-parse HEAD
+4c0fcb9ae5bcac64d2a8b0adf1c8d0968a08a91b
+exit=0
+clone vs evidence/local-2.manifest:
+  manifest mismatch=0
+$ omarchy theme current
+Sbc
+exit=0
+background: ~/.local/state/omarchy/current/theme/backgrounds/sunday-retro-senza-scritta-4k.webp
+staged theme files: alacritty.toml backgrounds btop.theme chromium.theme claude.json colors.toml CREDITS.md evidence fcitx5-theme.conf foot.ini ghostty.conf gum_env.lua helix.toml hermes.yaml hyprland.lua hyprland-preview-share-picker.css icons.theme keyboard.rgb kitty.conf LICENSE media.tsv neovim.lua obsidian.css pi.json preview.png README.md screenshots shell.toml t3code.json vscode-theme.json 
+staged backgrounds: sunday-omarchy-con-scritta-4k.webp sunday-omarchy-senza-scritta-4k.webp sunday-retro-con-scritta-4k.webp sunday-retro-senza-scritta-4k.webp 
+$ grep -h -A1 -E active_border_color|inactive_border_color ~/.local/state/omarchy/current/theme/hyprland.lua
+local active_border_color = { colors = { "rgba(fc9464ee)", "rgba(b884e0ee)" }, angle = 45 }
+local inactive_border_color = "rgba(2f305eaa)"
+
+--
+      active_border = active_border_color,
+      inactive_border = inactive_border_color,
+    },
+--
+      border_active = active_border_color,
+      border_inactive = inactive_border_color,
+    },
+exit=0
+$ gsettings get org.gnome.desktop.interface icon-theme
+'Yaru-wartybrown'
+exit=0
+$ cat /etc/chromium/policies/managed/color.json
+{"BrowserThemeColor": "#1e1d3a", "BrowserColorScheme": "device"}
+exit=0
+
+## cycle wallpaper
+$ omarchy theme bg next
+exit=0
+background: ~/.local/state/omarchy/current/theme/backgrounds/sunday-omarchy-con-scritta-4k.webp
+
+## rollback
+$ omarchy theme set Tokyo Night
+exit=0
+$ omarchy theme current
+Tokyo Night
+exit=0
+background: ~/.local/state/omarchy/current/theme/backgrounds/1-winding-road.webp
+
+## uninstall
+$ omarchy theme remove sbc
+Removed sbc
+exit=0
+theme directory removed
+$ omarchy theme current
+Tokyo Night
+exit=0

@@ -1,0 +1,11 @@
+# build-omarchy-themes @ 4a8a4fe583d7368fc88617843894f2c038d9a3b3, theme-tool handoff
+$ omarchy-theme-tool handoff omarchy-sbc-theme evidence/delivery-2.manifest
+FAILURE local: Helper exits 1 on hyprland_active_border: its strict subset accepts #RRGGBB only. The gradient is upstream-supported (see upstream render and live rows) and kept by design; not a palette defect
+NOW local: PASS for the hex palette subset: foreground/background 12.68:1, foreground/selection 8.60:1, accent/background 8.27:1; icons.theme and chromium.theme accepted by the helper's format checks
+NOW local: PASS: four contrast gates, no ignored root files, all seven images decode (four WebP wallpapers, two PNG screenshots, JPEG social preview). Run on the Omarchy VM, not a build container
+NOW local: 19 configs rendered with 0 unresolved placeholders; gradient border reaches hyprland.lua and shell.toml [hyprland]; shipped chromium.theme and icons.theme kept. No desktop involved
+NOW live: Install cloned 4c0fcb9 with 0 differences from the manifest and applied SBC: hyprland.lua gets the rgba(fc9464ee) rgba(b884e0ee) 45deg border, GTK icon theme Yaru-wartybrown, Chromium policy BrowserThemeColor #1e1d3a, four backgrounds staged; bg next cycled the wallpaper; setting Tokyo Night restored its 1-winding-road.webp; theme remove deleted ~/.config/omarchy/themes/sbc. QEMU VM on Apple Silicon, display 1463x824; SBC was already installed, so install replaced it and picked the next wallpaper. preview.png and screenshots/desktop.png were captured earlier in this task from the 10a388c install, whose colors.toml, icons.theme, chromium.theme and backgrounds are the same blobs as this manifest. Chromium itself was not opened
+NOT-RUN registry: Not submitted: wallpaper redistribution permission from @ncfrontiersman and the Sunday Builders Club is pending. The validator rules of omacom/omarchy-theme-registry d8fb987 were reviewed by hand, not executed
+NOT CHECKED: execution authenticity, prose completeness, remote URLs, image content/rights, live desktop acceptance, release readiness, registry submission.
+PASS: development handoff consistency only; failures and not-run checks above remain limits
+exit=0
