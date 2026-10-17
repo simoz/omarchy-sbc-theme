@@ -1,6 +1,6 @@
 # omarchy-sbc-theme
 
-![GitHub social preview made from the Omarchy-style wallpaper with the lettering and the palette](.github/social-preview.jpg)
+![GitHub social preview made from the Omarchy-style wallpaper with the lettering and the palette](docs/social-preview.jpg)
 
 *GitHub social preview made from the Omarchy-style wallpaper with the lettering and the palette, 1280×640; not a desktop screenshot*
 
@@ -140,7 +140,7 @@ Builders Club banner, original artwork by
 encoded as WebP (quality 95); they are not native 4K renders. Permission to
 redistribute them is pending; see [credits](CREDITS.md).
 `preview.png` and `screenshots/desktop.png` are screenshots of the theme
-applied on Omarchy. The banner at the top, `.github/social-preview.jpg`, is a
+applied on Omarchy. The banner at the top, `docs/social-preview.jpg`, is a
 mockup made from the Omarchy-style wallpaper with the lettering; not a desktop
 screenshot.
 

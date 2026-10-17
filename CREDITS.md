@@ -51,7 +51,7 @@ same redistribution permission applies to them.
 
 ## Social preview
 
-- .github/social-preview.jpg
+- docs/social-preview.jpg
 
 Image for GitHub's social preview, made from
 backgrounds/sunday-omarchy-con-scritta-4k.webp with the theme name and palette
