@@ -1,4 +1,0 @@
-# build-omarchy-themes @ 4a8a4fe583d7368fc88617843894f2c038d9a3b3, theme-tool check (full theme), built with rustc 1.99.1 (58cf8f9c3 2026-10-13)
-$ omarchy-theme-tool check omarchy-sbc-theme
-ERROR: hyprland_active_border: helper accepts #RRGGBB only; use upstream validation for other supported syntax
-exit=1

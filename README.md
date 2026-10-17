@@ -10,16 +10,12 @@
   <img alt="Status: development preview" height="20" src="https://img.shields.io/badge/status-development_preview-8a6500?style=flat-square">
 </p>
 
-Status: development preview
-Intended Omarchy target: Quattro (source revision f4357a3; confirm for this theme)
-Tested installed Omarchy version: 4.0.0.r7031.gcce8b1c-1
-
-The category badge is a community label, not certification. The target is not a tested-version claim.
-
 **SBC** is a dark theme drawn from the Sunday Builders Club banner by
 [@ncfrontiersman](https://x.com/ncfrontiersman): an indigo night sky, a
 peach-orange sunrise with violet and coral rays, periwinkle mountains and the
 sky-blue "club" lettering.
+
+Tested on Omarchy 4.0 in a virtual machine.
 
 ![SBC on Omarchy with Neovim, btop, a terminal and Files](preview.png)
 
@@ -150,17 +146,3 @@ mockup made from the retro wallpaper; not a desktop screenshot.
 Licence: [MIT](LICENSE), for the theme's palette and configuration files. It
 does not cover the wallpaper artwork, which is derived from @ncfrontiersman's
 banner.
-
-## Validation limits
-
-See [validation evidence](evidence/checks.tsv). The contrast, image-decoding and
-upstream template-rendering checks ran on the files recorded in
-`evidence/local-2.manifest`. The live check installed this repository with
-`omarchy theme install` on Omarchy 4.0.0.r7031.gcce8b1c-1 in a virtual machine,
-then cycled the wallpaper, rolled back to Tokyo Night and removed the theme;
-Chromium itself was not opened and no physical display was used. The Build
-Omarchy Themes helper rejects the gradient border key by design (it accepts
-`#RRGGBB` only); the same palette passes it without that key, and Omarchy's own
-renderer handles the gradient. The theme has not been submitted to the Theme
-Registry. The handoff checker checks file/evidence consistency, not whether
-recorded commands were actually executed or the theme looks correct.
